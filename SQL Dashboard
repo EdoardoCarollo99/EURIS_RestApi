@@ -1,0 +1,14 @@
+create database euris;
+use euris;
+
+create table items(
+    id int primary key auto_increment,
+    name varchar(50),
+    price varchar(50)
+);
+
+insert into items (name,price)values
+('shampoo', '5p 17s 8d'),
+('chlorine bleach', '9p 2s 6d'),
+('ammonium', '2p 12s 10d'),
+('dixan', '11p 15s 4d');

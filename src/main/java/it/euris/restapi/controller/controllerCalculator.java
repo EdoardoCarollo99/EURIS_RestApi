@@ -29,7 +29,7 @@ public class controllerCalculator {
         return "Operazione inesistente";
     }
 
-    @GetMapping("/{dividend}/{numberDivider}")
+    @GetMapping("/{dividend} / {numberDivider}")
     public String operation(@PathVariable String dividend, @PathVariable String numberDivider){
 
         return dao.division(dividend,numberDivider);
