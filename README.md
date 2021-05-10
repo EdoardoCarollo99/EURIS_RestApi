@@ -1,6 +1,6 @@
 # EURIS_RestApi
 In questo progetto sono stati inseriti nel pakege UTIL una classe e un interfaccia sviluppata durante il corso
-Che permetto di velocizza e semplificare il codice
+che permetto di velocizza e semplificare il codice
 
 Per simulare i dati necessari è stato integrato un database che come chiave identificativa è stato usato un semplice id;
 
